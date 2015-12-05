@@ -12,5 +12,8 @@
   "dependencies": {
     "debug": "^2.2.0",
     "stream-messenger": "maboiteaspam/stream-messenger"
+  },
+  "devDependencies": {
+    "flower": "maboiteaspam/flower"
   }
 }
