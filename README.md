@@ -10,7 +10,7 @@ A stream to route messages given their type.
 
 ```js
 var flower = require('flower')
-var messageRouter = require('./index')
+var messageRouter = require('stream-message-router')
 
 var streamA = flower();
 
