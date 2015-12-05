@@ -1,14 +1,18 @@
 {
   "name": "stream-message-router",
   "version": "1.0.0",
-  "description": "",
+  "description": "A stream to route messages given their type",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "stream",
+    "message",
+    "router"
+  ],
+  "author": "maboiteaspam",
+  "license": "WTF",
   "dependencies": {
     "debug": "^2.2.0",
     "stream-messenger": "maboiteaspam/stream-messenger"
