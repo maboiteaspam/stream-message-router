@@ -42,10 +42,13 @@ streamA.write({
 });
 ```
 
-## More
+## Read more
 
 You can see it in action in `npi`
 
 - https://github.com/maboiteaspam/npi
+- https://github.com/maboiteaspam/stream-messenger
 - https://github.com/maboiteaspam/flower
-
+- https://github.com/maboiteaspam/bubbler
+- https://github.com/maboiteaspam/bubbled
+- https://github.com/maboiteaspam/event-stream-writer
