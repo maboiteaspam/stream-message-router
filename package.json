@@ -1,6 +1,6 @@
 {
   "name": "@maboiteaspam/stream-message-router",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A stream to route messages given their type",
   "main": "index.js",
   "scripts": {
@@ -22,10 +22,10 @@
   "author": "maboiteaspam",
   "license": "WTF",
   "dependencies": {
-    "@maboiteaspam/stream-messenger": "^2.0.0",
-    "debug": "^2.2.0"
+    "@maboiteaspam/stream-messenger": ">=2.0.0 <3.0.0-0",
+    "debug": ">=2.2.0 <3.0.0-0"
   },
   "devDependencies": {
-    "@maboiteaspam/flower": "^2.0.0"
+    "@maboiteaspam/flower": ">=2.0.0 <3.0.0-0"
   }
 }
