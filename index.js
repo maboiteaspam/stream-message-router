@@ -1,5 +1,5 @@
 
-var streamMsger = require('stream-messenger')
+var streamMsger = require('@maboiteaspam/stream-messenger')
 var debug = require('debug')('message-router')
 
 module.exports = function messageRouter (message, name) {

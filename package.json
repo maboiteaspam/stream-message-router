@@ -1,10 +1,18 @@
 {
-  "name": "stream-message-router",
+  "name": "@maboiteaspam/stream-message-router",
   "version": "1.0.0",
   "description": "A stream to route messages given their type",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dcheck": "npm outdated --depth=0",
+    "patch": "npm version patch -m \"patch %s\"",
+    "minor": "npm version minor -m \"minor %s\"",
+    "major": "npm version major -m \"major %s\"",
+    "preversion": "echo \"npm test: undefined\" && npi --explicit",
+    "version": "echo \"npm run build: undefined\"",
+    "postversion": "git push && git push --tags && npm run public",
+    "public": "npm publish --access=public"
   },
   "keywords": [
     "stream",
@@ -14,8 +22,8 @@
   "author": "maboiteaspam",
   "license": "WTF",
   "dependencies": {
-    "debug": "^2.2.0",
-    "stream-messenger": "maboiteaspam/stream-messenger"
+    "@maboiteaspam/stream-messenger": "^2.0.0",
+    "debug": "^2.2.0"
   },
   "devDependencies": {
     "@maboiteaspam/flower": "^2.0.0"

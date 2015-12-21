@@ -1,5 +1,5 @@
 
-var flower = require('flower')
+var flower = require('@maboiteaspam/flower')
 var messageRouter = require('./index')
 
 var streamA = flower();
